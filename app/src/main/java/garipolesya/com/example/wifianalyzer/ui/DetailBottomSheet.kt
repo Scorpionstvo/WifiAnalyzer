@@ -33,7 +33,7 @@ class DetailBottomSheet : BottomSheetDialogFragment() {
         const val DETAIL_TAG = "detail tag"
         private const val WIFI_ID = "wifi id key"
         private const val WIFI_NAME = "wifi id name"
-        private const val MIN_PASSWORD_LENGTH = 6
+        private const val MIN_PASSWORD_LENGTH = 8
 
         fun newInstance(wifiId: String, wifiName: String) = DetailBottomSheet().apply {
             arguments = Bundle().apply {
@@ -145,6 +145,5 @@ class DetailBottomSheet : BottomSheetDialogFragment() {
         super.onDestroyView()
         _binding = null
     }
-
 
 }
