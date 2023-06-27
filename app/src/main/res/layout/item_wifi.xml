@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/clickable_view_group_background"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/iv_wifi_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:contentDescription="Wi-Fi"
+        android:src="@drawable/ic_wifi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_wifi_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_weight="2"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/iv_password_icon"
+        app:layout_constraintStart_toEndOf="@id/iv_wifi_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="My-WiFi_336578" />
+
+    <ImageView
+        android:id="@+id/iv_password_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:contentDescription="Password"
+        android:src="@drawable/ic_lock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/grey_700" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WiFi Analyzer</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="dialog_message">Access to location data is disabled. Scanning a Wi-Fi network requires access to location data.</string>
+    <string name="dialog_button_ok">Settings</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="unknown_network">Unknown</string>
+    <string name="unknown_error_message">Unknown error</string>
+    <string name="disabled_wifi_message">Please, turn on Wi-Fi</string>
+    <string name="action_export_data">Export data</string>
+    <string name="no_wi_fi_connection_message">No Wi-Fi connection. Please, turn off Wi-Fi.</string>
+    <string name="location_disabled_message">Location disabled</string>
+    <string name="permission_denied_message">Permission denied. Approve the permission in the app settings to continue working.</string>
+    <string name="hint_password">Password</string>
+    <string name="button_connect_label">Connect</string>
+    <string name="export_success">Data exported successfully</string>
+    <string name="export_unsuccessfully">Failed to export data</string>
+    <string name="network_already_connected_message">This network is already connected</string>
+    <string name="success_connected_message">%s connected successfully</string>
+    <string name="unsuccessfully_connected_message">Failed to connect to the %s</string>
+    <string name="error_message">Incorrect password</string>
+</resources>

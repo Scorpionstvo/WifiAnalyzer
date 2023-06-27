@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HomeToolbarStyle" parent="Theme.WiFiAnalyzer">
+        <item name="android:background">@color/purple_500</item>
+        <item name="android:theme">@style/ToolbarAccountColorTheme</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+    <style name="ToolbarAccountColorTheme" parent="Theme.WiFiAnalyzer">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+</resources>
