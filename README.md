@@ -1,0 +1,2 @@
+# WifiAnalyzer
+Scanning available networks
